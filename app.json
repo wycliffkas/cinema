@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "cinemax",
+    "slug": "cinemax",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.WYCLIFF.cinemax"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.WYCLIFF.cinemax"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c9719ab-f41a-439c-a236-cf1ca6742f7f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "unstable_networkInspector": true
+          },
+          "ios": {
+            "unstable_networkInspector": true,
+            "flipper": true
+          }
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
