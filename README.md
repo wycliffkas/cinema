@@ -21,7 +21,7 @@ Cinemax is a React Native Expo application that allows users to view new movies,
 
 ## Screenshots
 
-
+[Watch the demo video on Vimeo](https://player.vimeo.com/video/983612758?h=6bc6c098c3)
 
 ## Installation
 
